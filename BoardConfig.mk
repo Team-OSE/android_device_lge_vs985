@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2014 The CyanogenMod Project
+# Copyright (C) 2015 OSE Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -33,7 +33,6 @@ BOARD_BOOTIMAGE_PARTITION_SIZE := 16777216
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 16777216
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 2692743168
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 27325360128
-TARGET_USERIMAGES_USE_F2FS := true
 
 # Recovery
 TARGET_RECOVERY_FSTAB := device/lge/vs985/rootdir/etc/fstab.g3
